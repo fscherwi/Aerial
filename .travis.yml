@@ -1,5 +1,6 @@
 language: objective-c
 osx_image: xcode10.2
+cache: cocoapods
 before_install:
   - pod repo update
 after_success:
